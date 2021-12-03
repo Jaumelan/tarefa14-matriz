@@ -13,7 +13,7 @@ let jogador = "O";
 // jogadas
 let jogadas = ["", "", "", "", "", "", "", "", ""];
 
-//variável para saber avaliar o resultado
+//gabarito com as possibilidades de ganho para saber avaliar o resultado
 const cartilha = [
     [0, 1, 2], 
     [3, 4, 5],
