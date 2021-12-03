@@ -50,7 +50,7 @@ function determinarResultado() {
         const condicaoDeVitoria = cartilha[i];
         let a = jogadas[condicaoDeVitoria[0]];
         let b = jogadas[condicaoDeVitoria[1]];
-        let c = jogadas[condicaoDeVitoria[3]];
+        let c = jogadas[condicaoDeVitoria[2]];
         if ( a === '' || b === '' || c === '') {
             continue;
         }
