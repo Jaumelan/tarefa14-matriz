@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+    </header>
+    <main>
+        <p>O jogo possui dois jogadores “O” e “X”</p>
+        <p>O jogador “O” sempre inicia a partida; </p>
+        <p> 
+            <b>Condições de vitória</b>: Uma linha inteira, 
+            uma coluna inteira ou uma diagonal inteira 
+            preenchidos com “O” ou “X”.
+        </p>
+        
+        <div id="boxTurn">
+            <p id="vezDeQuem"></p>
+        </div>
+        <div id="gridBox">
+            <div value="0" class="cell"></div>
+            <div value="1" class="cell"></div>
+            <div value="2" class="cell"></div>
+        
+            <div value="3" class="cell"></div>
+            <div value="4" class="cell"></div>
+            <div value="5" class="cell"></div>
+        
+            <div value="6" class="cell"></div>
+            <div value="7" class="cell"></div>
+            <div value="8" class="cell"></div>
+        </div>
+        <p id="winner"></p>
+        <button type="button">Reiniciar</button>
+    </main>
+    <script src="jogo.js" defer></script>
+    
+</body>
+</html>
